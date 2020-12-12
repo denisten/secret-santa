@@ -3,13 +3,14 @@ const data = require('./data.json')
 const {sorted, shuffled} = require('./shuffled.json');
 const fs = require('fs')
 const shuffle = require('./shuffle')
-
+let canShuffle = !sorted;
 class SceneGenerator {
     targetScene () {
         const target = new Scene('target');
         target.enter(async(ctx) => {
             await ctx.reply('Привет, введи свой пароль, и я покажу тебе твою цель в игре.')
-            if(!sorted) {
+            if(!sorted && canShuffle) {
+                canShuffle = false;
                 const data = {sorted: true, shuffled: shuffle(shuffled)}
                 fs.writeFileSync('./shuffled.json', JSON.stringify(data))
             }
