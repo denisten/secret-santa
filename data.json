@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Карен",
+      "surname": "Абрамов",
+      "password": "karen228weed",
+      "info": [2, 4, 5],
+      "wishList": []
+    },
+    {
+      "id": 2,
+      "name": "Денис",
+      "surname": "Тен",
+      "password": "adminqwerty",
+      "info": [1, 3],
+      "wishList": []
+    },
+    {
+      "id": 3,
+      "name": "Маша",
+      "surname": "Исаева",
+      "password": "kisepopa02",
+      "info": [2],
+      "wishList": []
+    },
+    {
+      "id": 4,
+      "name": "Андрей",
+      "surname": "Макеев",
+      "password": "makeyjokey",
+      "info": [2, 1],
+      "wishList": []
+    },
+    {
+      "id": 5,
+      "name": "Максим",
+      "surname": "Урумбаев",
+      "password": "maximURU",
+      "info": [1],
+      "wishList": []
+    },
+    {
+      "id": 6,
+      "name": "Эмиль",
+      "surname": "Гурбанов",
+      "password": "gurbanio95",
+      "info": [7, 2],
+      "wishList": []
+    },
+    {
+      "id": 7,
+      "name": "Петя",
+      "surname": "Ядрихинский",
+      "password": "reddevil19__",
+      "info": [6, 2],
+      "wishList": []
+    }
+  ]
+}

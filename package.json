@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^14.14.12",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
     "telegraf": "^3.38.0"
   }
 }
